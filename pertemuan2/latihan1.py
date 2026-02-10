@@ -8,23 +8,37 @@ angka = [10, 20, 30, 40, 50]
 5. Tampilkan seluruh isi list setelah perubahan.
 """
 #1. tambahkan angka 60
-angka = [10, 20, 30, 40, 50] 
-angka.append(60)
-print(angka)
+angka = [10, 20, 30, 40, 50]  #membuat list bernama angka yang diisi dengan beberapa bilangan
+
+angka.append(60) #menggunakan perintah angka.append(60), untuk menambahkan nilai 60 ke bangian akhir dari list
+
+print(angka) #menampilkan output dengan perintah print(angka)
+
 #2. menghapus angka 20
-angka.remove(20)
-angka.sort(reverse=True)
+angka.remove(20) #menggunakan perintah angka.remove(20) untuk menghapus nilai 20 dari dalam list
+
+angka.sort(reverse=True) #menggunakan perintah angka.sort(reverse=True) untuk mengurutkan elemen list secara menurun
+
+
+#menampilkan angka tertinggi dan terendah
+tertinggi = max(angka) #menyimpan angka tertinggi dari list angka
+terendah = min(angka) #menyimpan angka terendah dari list angka
+
+print(tertinggi) #menampilkan angka tertinggi
+print(terendah) #menampilkan angka terendah
 
 print(angka)
 #3. menghitung rata rata
-total = 0
-jumlah = 0
-for x in angka :
-    total += x
-    jumlah += 1
-    rata = total / jumlah
+total = 0 #untuk menyimpan jumlah seluruh angka.
+jumlah = 0 #untuk menyimpan banyaknya elemen dalam list
 
-print("rata rata nya adalah ", rata)
+#melakukan perulangan for untuk menjumlahkan angka
+for x in angka :  #untuk setiap x pada angka
+    total += x #menjumlahkan setiap elemen
+    jumlah += 1 #menghitung jumlah elemen
+    rata = total / jumlah #operasi untuk menghitung rata - rata
+print("rata rata nya adalah ", rata) #menampilkan rata - rata ke layar
+
 
 
 

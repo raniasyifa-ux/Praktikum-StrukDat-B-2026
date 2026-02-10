@@ -6,12 +6,12 @@ mahasiswa = ("A001", "Budi", "Informatika")
 3. Jelaskan satu alasan mengapa tuple tidak bisa diubah.
 """
 #tampilkan nama mahasiswa
-mahasiswa = ("A001", "Budi", "Informatika")
-print(mahasiswa[1])
+mahasiswa = ("A001", "Budi", "Informatika") #tuple bernama mahasiswa yang berisi nama, nim, dan prodi
+print(mahasiswa[1]) #menampilkan index ke-1 pada tuple
 
 #menggunakan perulangan for
-for x in mahasiswa:
-    print (x)
+for x in mahasiswa: #untuk setiap x pada tuple mahasiswa
+    print (x) #menampilkan satu per satu elemen
 
 """
 tuple tidak bisa diubah karena yang bisa diubah itu adalah list
