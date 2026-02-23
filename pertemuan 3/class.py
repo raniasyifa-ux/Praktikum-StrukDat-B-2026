@@ -6,7 +6,8 @@ class teman :
     nama = "fildza"
 
 #membuat objek
-print(teman.nama) #mencetak nilai melalui pemanggilan objek
+namanya = teman()
+print(namanya.nama)
 
 #membbuat beberapa objek
 contoh1 = teman()
