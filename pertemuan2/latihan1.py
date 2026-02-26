@@ -17,10 +17,10 @@ print(angka) #menampilkan output dengan perintah print(angka)
 #2. menghapus angka 20
 angka.remove(20) #menggunakan perintah angka.remove(20) untuk menghapus nilai 20 dari dalam list
 
+
 angka.sort(reverse=True) #menggunakan perintah angka.sort(reverse=True) untuk mengurutkan elemen list secara menurun
 
-
-#menampilkan angka tertinggi dan terendah
+#3. menampilkan angka tertinggi dan terendah
 tertinggi = max(angka) #menyimpan angka tertinggi dari list angka
 terendah = min(angka) #menyimpan angka terendah dari list angka
 
@@ -28,7 +28,7 @@ print(tertinggi) #menampilkan angka tertinggi
 print(terendah) #menampilkan angka terendah
 
 print(angka)
-#3. menghitung rata rata
+#4. menghitung rata rata
 total = 0 #untuk menyimpan jumlah seluruh angka.
 jumlah = 0 #untuk menyimpan banyaknya elemen dalam list
 
@@ -40,5 +40,6 @@ for x in angka :  #untuk setiap x pada angka
 print("rata rata nya adalah ", rata) #menampilkan rata - rata ke layar
 
 
-
+#5. menampilkan seluruh list
+print(angka)
 

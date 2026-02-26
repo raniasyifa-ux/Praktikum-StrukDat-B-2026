@@ -23,6 +23,9 @@ print(matakuliahyangsama) #menampilkan hasil ke layar
 #mata kuliah yang hanya diambil oleh kelas a
 print("Mata kuliah yang diambil oleh kelas A", kelas_A) #menampilkan mata kuliah yang hanya diambil oleh kelas A
 
+a = kelas_A.difference(kelas_B)
+print(a)
+
 #seluruh mata kuliah unik yang diambil oleh kelas A dan B
 matakuliah =kelas_A.union(kelas_B) #menggabungkan mata kuliah yang diambil
 print("seluruh mata kuliah yang diambil oleh kedua kelas",matakuliah) #menampilkan mata kuliah yang diambil kedua kelas
